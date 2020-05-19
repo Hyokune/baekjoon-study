@@ -13,11 +13,11 @@ int main()
     
     if (returnValue < 10)
     {
-      firstNumber = 0;
+        firstNumber = 0;
     }
     else
     {
-      firstNumber = returnValue / 10 % 10;
+        firstNumber = returnValue / 10 % 10;
     }
     
     secondNumber = returnValue % 10;
@@ -25,9 +25,9 @@ int main()
     
     while (calculatedValue != returnValue)
     {
-      count++;
-      calculatedValue = (calculatedValue % 10) * 10 + ((secondNumber + (calculatedValue % 10)) % 10);
-      secondNumber = calculatedValue / 10 % 10;
+        count++;
+        calculatedValue = (calculatedValue % 10) * 10 + ((secondNumber + (calculatedValue % 10)) % 10);
+        secondNumber = calculatedValue / 10 % 10;
     }
 
     std::cout << count;

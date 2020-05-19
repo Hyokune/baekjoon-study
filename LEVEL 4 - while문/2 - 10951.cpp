@@ -11,12 +11,12 @@ int main()
 
     while (std::cin >> firstNumber >> secondNumber)
     {
-      acceptedNumbers.push_back(firstNumber + secondNumber);
+        acceptedNumbers.push_back(firstNumber + secondNumber);
     }
     
     for (int number : acceptedNumbers)
     {
-      std::cout << number << "\n";
+        std::cout << number << "\n";
     }
 	
     return 0;

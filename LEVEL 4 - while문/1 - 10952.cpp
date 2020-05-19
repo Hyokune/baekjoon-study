@@ -12,13 +12,13 @@ int main()
     std::cin >> firstNumber >> secondNumber;
     while (firstNumber != 0 && secondNumber != 0)
     {
-      acceptedNumbers.push_back(firstNumber + secondNumber);
-      std::cin >> firstNumber >> secondNumber;
+        acceptedNumbers.push_back(firstNumber + secondNumber);
+        std::cin >> firstNumber >> secondNumber;
     }
     
     for (int number : acceptedNumbers)
     {
-      std::cout << number << "\n";
+        std::cout << number << "\n";
     }
 	
     return 0;
