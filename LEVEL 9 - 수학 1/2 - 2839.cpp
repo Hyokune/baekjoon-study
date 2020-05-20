@@ -22,7 +22,7 @@ int main()
         {
             totalBagCount = -1;
             break;
-      }
+        }
     }
     
     cout << totalBagCount;
